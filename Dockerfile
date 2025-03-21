@@ -12,3 +12,6 @@ EXPOSE 85
 
 CMD ["npm","start"]
 
+#run commands
+# docker build -t nknick99/react_app_dem_ubuntuo:1.0 . 
+# docker run -p 85:80 nknick99/react_app_dem_ubuntuo:1.0 (will run on localhost:85)
